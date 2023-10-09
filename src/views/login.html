@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../public/css/styles.css">
+    <title>login</title>
+</head>
+<body>
+    
+    
+    <header>
+
+        <div class="header-container">
+
+
+            <div class="container">
+                <img src="../public/images/logo-mercado-liebre.svg" alt="logo" class="logo">
+                </div>
+                
+                <form action="/#" class="search-header">
+           
+                    <input type="text" name="busqueda" placeholder="Buscar productos, marcas" class="search-input">
+                    <button type="submit" class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                   </form>
+
+
+            <p class="paragraph-header"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+
+        </div>
+
+        <nav class="header-navbar">
+            <ul class="list1">
+                <li>Ofertas</li>
+                <li>Tiendas Oficiales</li>
+                <li>Vender</li>
+                <li>Ayuda</li>
+            </ul>
+
+            <ul class="list2">
+                <a href="./register.html">
+                <li>Créa tu cuenta<i class="far fa-id-card"></i></li>
+                </a>
+                <a href="./login.html"><li>Ingresá<i class="fas fa-sign-in-alt"></i></li></a>
+                <li>Mis Compras<i class="fas fa-shopping-basket"></i></li>
+
+            </ul>
+
+
+        </nav>
+
+
+        <div class="menu-burger">
+            <i class="fa fa-bars burger"></i>
+        </div>
+
+    </header>
+
+      
+     <form action="./index.html" method="get" class="login">
+    
+    
+    <input type="text" id="user" name="user" placeholder="nombre de usuario"  required pattern=".{2,}" title="El nombre debe tener al menos 2 caracteres"required>
+    <br>
+    <br>
+    <input type="password" id="password" name="password" placeholder="contraseña" required>
+    <br>
+    <br>
+    
+    <button class="button-regis-log">Enviar</button>
+    
+    
+     </form> 
+    
+</body>
+</html>
