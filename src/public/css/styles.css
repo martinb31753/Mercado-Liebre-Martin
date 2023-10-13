@@ -11,9 +11,6 @@ header div .container{
 } 
 
 
-
-
-
 .search-header{
   display: flex;
   align-items: center;
@@ -127,7 +124,7 @@ body{
 }
 
 .description{
-  /*position: absolute;*/
+  position: absolute;
   opacity: 0;
   transition: opacity 1s ;
 
@@ -162,12 +159,12 @@ main section article img{
 
 
  .main-product{
-  display: flex;
   align-items: baseline;
   width: 100%;
   border-top: 1px solid #ebebeb;
   padding: 15px;
   background-color: #FFF;
+  height: 70px;
   
 }
  
@@ -185,7 +182,7 @@ main section article i{
  color: #39b54a;
  position: absolute;
  right: 20px;
- bottom: 55px;
+ bottom: 70px;
 
 }
 
@@ -408,5 +405,3 @@ main section div.products{
 
 
 }
-
-

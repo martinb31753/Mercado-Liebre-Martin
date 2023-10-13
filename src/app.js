@@ -16,9 +16,18 @@ app.get('/register', (req, res) => {
     res.sendFile(__dirname + '/views/register.html');
 });
 
+app.post('/register', (req, res) => {
+    res.redirect('/');
+});
+
 app.get('/login', (req, res) => {
     res.sendFile(__dirname + '/views/login.html');
 });
+
+app.post('/login', (req, res) => {
+    res.redirect('/');
+});
+
 
 const port = process.env.PORT || 3030;
 app.listen(port, () => {
